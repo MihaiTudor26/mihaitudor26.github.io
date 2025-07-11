@@ -7,15 +7,16 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "ro-RO"
 site_theme               : "default"
-title                    : "Your Name"
+title                    : "Mihai Tudor"
 title_separator          : "-"
 name                     : &name "Mihai Tudor"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+description              : &description "Pagina personală – Asistent Universitar la Facultatea de Automatică și Calculatoare"
+url                      : "https://mihaitudor26.github.io"  # adresa ta principală
+baseurl                  : ""  # dacă site-ul e în repo-ul 'mihaitudor26.github.io'
+repository               : "mihaitudor26/mihaitudor26.github.io"  # userul/repo-ul tău
+
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
