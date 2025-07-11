@@ -1,9 +1,23 @@
 ---
 layout: single
-title: "About"
-permalink: /about/
+title: "Mihai Tudor"
+permalink: /
+author_profile: true
 ---
 
-This is a sample "About" page. You could put your own information here (including: your education, research interests, publications, teaching, service, awards, and contact information).
+📧 **Email**: mihai.tudor@upb.ro  
+📄 **[Curriculum Vitae (PDF)](assets/CV_Mihai_Tudor.pdf)**  
+🔗 **[Google Scholar](https://scholar.google.com/)**  
+🔗 **[ORCID](https://orcid.org/)**
 
-You can find the source code for this website [here](https://github.com/academicpages/academicpages.github.io) and the template used [here](https://github.com/academicpages/academicpages).
+---
+
+## 🎓 Educație
+
+- **Doctorand** în Informatică, Universitatea Politehnica din București *(2022 – prezent)*
+- **Master** în Tehnologii Avansate pentru Prelucrarea Informației, UPB *(2020 – 2022)*
+- **Licență** în Calculatoare și Tehnologia Informației, UPB *(2016 – 2020)*
+
+---
+
+_„Educația este cheia care deschide ușa libertății.” – Oprah Winfrey_
