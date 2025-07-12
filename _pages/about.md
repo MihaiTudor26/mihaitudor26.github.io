@@ -1,19 +1,45 @@
 ---
-layout: single
-title: "Mihai Tudor"
 permalink: /
+title: "About"
+excerpt: "About me"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-📧 **Email**: mihai.tudor@upb.ro  
-📄 **[Curriculum Vitae (PDF)](assets/CV_Mihai_Tudor.pdf)**  
-🔗 **[Google Scholar](https://scholar.google.com/)**  
-🔗 **[ORCID](https://orcid.org/)**
+Welcome to my personal webpage!
 
----
+I am a PhD student in Mathematics and Teaching Assistant at the Department of Mathematics, University of Craiova, Romania.
 
-## 🎓 Educație
+## Research Interests
 
-- **Doctorand** în Informatică, Universitatea Politehnica din București *(2022 – prezent)*
-- **Master** în Tehnologii Avansate, UPB *(2020 – 2022)*
-- **Licență** în Calculatoare, UPB *(2016 – 2020)*
+[Add your research interests here]
+
+## Education
+
+* **PhD in Mathematics** - University of Craiova (ongoing)
+* **Master's degree in [Specialization]** - [University] ([Year])
+* **Bachelor's degree in [Specialization]** - [University] ([Year])
+
+## Teaching Experience
+
+* **Teaching Assistant** - Department of Mathematics, University of Craiova
+  * [Course names and descriptions]
+  * [Duties and responsibilities]
+
+## Research Experience
+
+[Add your research experience here]
+
+## Publications
+
+[Add your publications here]
+
+## Conference Presentations
+
+[Add your conference presentations here]
+
+## Awards and Honors
+
+[Add your awards and honors here]
