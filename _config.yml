@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Mihai Tudor"
 title_separator          : "-"
 name                     : &name "Mihai Tudor"
-description              : &description "Pagina personală – Asistent Universitar la Facultatea de Automatică și Calculatoare"
+#description              : &description "Pagina personală – Asistent Universitar la Facultatea de Automatică și Calculatoare"
 url                      : "https://mihaitudor26.github.io"  # adresa ta principală
 baseurl                  : ""  # dacă site-ul e în repo-ul 'mihaitudor26.github.io'
 repository               : "mihaitudor26/mihaitudor26.github.io"  # userul/repo-ul tău
