@@ -20,7 +20,7 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
 **2018–2020**  
 • M.S. in Mathematics, University of Craiova, Faculty of Science, specialization in Applied Mathematics.
 
-**Oct. 2020–Nov. 2023**  
+**2020–2023**  
 • Ph.D. in Mathematics, University of Craiova, Doctoral School of Science, Domain Field: Mathematics.
 
 
@@ -30,10 +30,15 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
 * Partial Differential Equations
 * Functional Analysis
 
+
 ## 🧑‍🏫 Teaching Experience
 
-* **Teaching Assistant** - Department of Mathematics, University of Craiova
-  * [Course names and descriptions]
-  * [Duties and responsibilities]
-
+**Oct. 2017 – Nov. 2023**  
+• Teaching activities carried out at the Department of Mathematics and the Department of Computer Science, University of Craiova, as a Ph.D. student.  
+  - **Mathematical Analysis I**, 1st year, 1st semester (Mathematics and Mathematics–Computer Science)  
+  - **Mathematical Analysis II**, 1st year, 2nd semester (Mathematics and Mathematics–Computer Science)  
+  - **Computational Logic**, 1st year, 1st semester (Computer Science)  
+  - **Numerical Calculus**, 3rd year, 2nd semester (Computer Science)  
+  - **Algorithms in Number Theory**, 3rd year, 2nd semester (Computer Science)  
+    
 
