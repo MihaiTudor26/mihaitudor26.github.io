@@ -40,5 +40,3 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
   - **Computational Logic**, 1st year, 1st semester (Computer Science)  
   - **Numerical Calculus**, 3rd year, 2nd semester (Computer Science)  
   - **Algorithms in Number Theory**, 3rd year, 2nd semester (Computer Science)  
-    
-
