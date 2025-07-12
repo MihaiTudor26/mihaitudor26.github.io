@@ -21,14 +21,14 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
 • M.S. in Mathematics, University of Craiova, Faculty of Science, specialization in Applied Mathematics
 
 **Oct. 2020–Nov. 2021**  
-• Ph.D. in Mathematics, University of Craiova, Doctoral School of Science, Domain Field: Mathematics
+• Ph.D. in Mathematics, University of Craiova, Doctoral School of Science.
 
 
-## Research Interests
+## 🔬 Research Interests
 
-* **Control Theory**
-* **Partial Differential Equations** 
-* **Functional Analysis** 
+* Control Theory
+* Partial Differential Equations
+* Functional Analysis
 
 ## Teaching Experience
 
