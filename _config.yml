@@ -103,9 +103,9 @@ analytics:
 author:
   name             : "Mihai Tudor"
   avatar           : # Comentat pentru a elimina poza
-  bio              : "Doctorand în Matematică<br>Departamentul de Matematică<br>Universitatea din Craiova, România"
-  location         : "Craiova, România"
-  employer         : "Universitatea din Craiova"
+  bio              : "Assistant professor<br>Department of Mathematics<br>University of Craiova, Romania"
+  location         : "Craiova, Romamia"
+  employer         : "University of Craiova"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/"
   email            : "mihai.tudor@ucv.ro"
