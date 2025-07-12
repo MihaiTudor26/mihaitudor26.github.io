@@ -33,7 +33,7 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
 
 ## 🧑‍🏫 Teaching Experience
 
-**Oct. 2017 – Nov. 2023**  
+**Oct. 2020– Nov. 2023**  
 • Teaching activities carried out at the Department of Mathematics and the Department of Computer Science, University of Craiova, as a Ph.D. student.  
   - **Mathematical Analysis I**, 1st year, 1st semester (Mathematics and Mathematics–Computer Science)  
   - **Mathematical Analysis II**, 1st year, 2nd semester (Mathematics and Mathematics–Computer Science)  
