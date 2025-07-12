@@ -10,11 +10,14 @@ redirect_from:
 
 Welcome to my personal webpage!
 
-I am a PhD student in Mathematics and Teaching Assistant at the Department of Mathematics, University of Craiova, Romania.
+I am Teaching Assistant at the Department of Mathematics, University of Craiova, Romania.
 
 ## Research Interests
 
-[Add your research interests here]
+* **Control Theory**
+* **Partial Differential Equations** 
+* **Functional Analysis** 
+
 
 ## Education
 
@@ -28,18 +31,4 @@ I am a PhD student in Mathematics and Teaching Assistant at the Department of Ma
   * [Course names and descriptions]
   * [Duties and responsibilities]
 
-## Research Experience
 
-[Add your research experience here]
-
-## Publications
-
-[Add your publications here]
-
-## Conference Presentations
-
-[Add your conference presentations here]
-
-## Awards and Honors
-
-[Add your awards and honors here]
