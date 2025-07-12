@@ -23,7 +23,7 @@ repository               : "mihaitudor26/mihaitudor26.github.io"  # userul/repo-
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
    Biographic information
-  avatar           : "profile.png"
+  #avatar           : "profile.png"
   name             : "Mihai Tudor"
   pronouns         : # example: "she/her"  
   bio              : " Assistant Professor"
