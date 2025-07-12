@@ -10,7 +10,7 @@ redirect_from:
 
 Welcome to my personal webpage!
 
-I am Teaching Assistant at the Department of Mathematics, University of Craiova, Romania.
+I am a Teaching Assistant in the Department of Mathematics at the University of Craiova, Romania.
 
 ## 🎓 Education
 
@@ -24,12 +24,6 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
 • Ph.D. in Mathematics, University of Craiova, Doctoral School of Science, Domain Field: Mathematics.
 
 
-## 🔬 Research Interests
-
-* Control Theory
-* Partial Differential Equations
-* Functional Analysis
-
 
 ## 🧑‍🏫 Teaching Experience
 
@@ -39,4 +33,11 @@ I am Teaching Assistant at the Department of Mathematics, University of Craiova,
   - **Mathematical Analysis II**, 1st year, 2nd semester (Mathematics and Mathematics–Computer Science)  
   - **Computational Logic**, 1st year, 1st semester (Computer Science)  
   - **Numerical Calculus**, 3rd year, 2nd semester (Computer Science)  
-  - **Algorithms in Number Theory**, 3rd year, 2nd semester (Computer Science)  
+  - **Algorithms in Number Theory**, 3rd year, 2nd semester (Computer Science)
+
+
+## 🔬 Research Interests
+
+* Control Theory
+* Partial Differential Equations
+* Functional Analysis    
