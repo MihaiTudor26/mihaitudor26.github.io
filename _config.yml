@@ -21,16 +21,16 @@ repository               : "mihaitudor26/mihaitudor26.github.io"  # userul/repo-
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
-#author:
-  # Biographic information
- # avatar           : "profile.png"
- # name             : "Mihai Tudor"
- # pronouns         : # example: "she/her"  
- # bio              : " Assistant Professor"
-  #location         : " Department of Mathematics, University of Craiova "
-  #employer         : "Red Brick University"
+author:
+   Biographic information
+  avatar           : "profile.png"
+  name             : "Mihai Tudor"
+  pronouns         : # example: "she/her"  
+  bio              : " Assistant Professor"
+  location         : " Department of Mathematics "
+  employer         : "University of Craiova"
   #uri              : # URL
-  #email            : "adrian_mihai61@yahoo.com" 
+  email            : "adrian_mihai61@yahoo.com" 
 
   # Academic websites
   academia         : # URL
