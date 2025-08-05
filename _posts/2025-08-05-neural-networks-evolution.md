@@ -1,5 +1,5 @@
 ---
-title: 'Un altfel de inceput...'
+title: 'Un altfel de început...'
 date: 2025-08-05
 permalink: /posts/2025/08/neural-networks-evolution/
 categories:
