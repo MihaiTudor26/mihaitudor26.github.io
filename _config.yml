@@ -218,7 +218,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _posts (înlocuiește secțiunea existentă)
   - scope:
       path: ""
       type: posts
@@ -229,6 +229,22 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+  # Pentru postări matematice specifice
+  - scope:
+      path: "_posts/math"
+      type: posts
+    values:
+      layout: single-math
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      math: true
   # _pages
   - scope:
       path: ""
