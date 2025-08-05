@@ -1,13 +1,17 @@
 ---
-title: 'Evoluția Istorică a Cercetării Rețelelor Neuronale: De la Neuronul McCulloch-Pitts la Era AI Generativă'
+title: 'Evoluția Istorică a Cercetării Rețelelor Neuronale'
 date: 2025-08-05
 permalink: /posts/2025/08/neural-networks-evolution/
-tags:
+categories:
   - artificial intelligence
+  - technology
+tags:
   - neural networks
   - machine learning
   - deep learning
-  - history
+  - AI history
+toc: true
+toc_sticky: true
 ---
 
 Rețelele neuronale artificiale reprezintă astăzi fundamentul revoluției inteligenței artificiale, dar drumul lor către succesul actual a fost lung și plin de provocări. Să explorăm această fascinantă evoluție istorică care ne-a adus de la primele modele matematice ale neuronilor la sistemele AI sofisticate de astăzi.
@@ -111,7 +115,3 @@ Astăzi, rețelele neuronale sunt omniprezente:
 Evoluția rețelelor neuronale este o poveste fascinantă de perseverență științifică, inovație tehnologică și timing perfect. De la modelele simple ale anilor 1940 la sistemele AI sofisticate de astăzi, această călătorie demonstrează puterea cercetării fundamentale și importanța de a nu abandona ideile promițătoare, chiar și atunci când par să ajungă în impas.
 
 Astăzi, pe măsură ce intrăm în era AI generativă, suntem martorii unor transformări care vor redefini societatea. Înțelegerea acestei evoluții istorice ne ajută să apreciem nu doar unde am ajuns, ci și să anticipăm unde ne îndreptăm în această aventură extraordinară a inteligenței artificiale.
-
----
-
-*Dacă ți-a plăcut acest articol, urmărește-mă pentru mai multe explorări în lumea fascinantă a tehnologiei și AI.*
