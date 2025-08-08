@@ -74,6 +74,12 @@ O întrebare îndreptățită totuși apare și merită rostită cu tărie: **�
 
 ---
 
+![Școala din Atena - Raphael](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/1280px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg)
+
+*"Școala din Atena" (Raphael, 1511) - O reprezentare simbolică a evoluției cunoașterii umane, de la gândirea filozofică antică la înțelegerea modernă a inteligenței și rațiunii. Așa cum în această frescă marii gânditori ai antichității se adună pentru a dezbate adevărurile universale, astfel și în domeniul inteligenței artificiale, fiecare contribuție istorică - de la Llull la Turing - a adus o piesă la puzzle-ul complex al înțelegerii și replicării inteligenței umane.*
+
+---
+
 ## Bibliografie
 
 1. Leibniz, G. W. (1703). *Explication de l'Arithmétique Binaire*. Mémoires de l'Académie Royale des Sciences.
