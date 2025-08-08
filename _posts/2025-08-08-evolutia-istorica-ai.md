@@ -13,8 +13,6 @@ tags:
 ---
 
 
-## Un început au toate...
-
 Aproape orice concept modern pe care astăzi îl întâlnim și inevitabil îl integrăm în propria existență cu o naturalețe debordantă își are un sâmbure sădit cu dibăcie în conștiința profundă a istoriei, prăfuit doar de secolele scurse. Poate deloc surprinzător, ideea de „inteligență artificială" are rădăcini filozofice și nu numai, în Evul Mediu, bazele matematice și modelele formale fiind conturate în secolul XIX–XX, ca o „naștere" academică și recunoscută să se producă abia între anii 1940-1956.
 
 ## Un sâmbure este sădit...
