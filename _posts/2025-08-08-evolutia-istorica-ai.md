@@ -10,7 +10,6 @@ tags:
   - deep learning
   - filosofie
   - matematica
-excerpt: 'O analiză detaliată a evoluției istorice a inteligenței artificiale, de la primele concepte filozofice din Evul Mediu până la revoluția Deep Learning din 2012. Explorăm contribuțiile lui Ramon Llull, Leibniz, Babbage, Ada Lovelace, Turing și momentele cheie care au definit acest domeniu.'
 ---
 
 
