@@ -13,9 +13,8 @@ tags:
 excerpt: 'O analiză detaliată a evoluției istorice a inteligenței artificiale, de la primele concepte filozofice din Evul Mediu până la revoluția Deep Learning din 2012. Explorăm contribuțiile lui Ramon Llull, Leibniz, Babbage, Ada Lovelace, Turing și momentele cheie care au definit acest domeniu.'
 ---
 
-# Evoluția istorică a inteligenței artificiale
 
-## Totul are un început...
+## Un început au toate...
 
 Aproape orice concept modern pe care astăzi îl întâlnim și inevitabil îl integrăm în propria existență cu o naturalețe debordantă își are un sâmbure sădit cu dibăcie în conștiința profundă a istoriei, prăfuit doar de secolele scurse. Poate deloc surprinzător, ideea de „inteligență artificială" are rădăcini filozofice și nu numai, în Evul Mediu, bazele matematice și modelele formale fiind conturate în secolul XIX–XX, ca o „naștere" academică și recunoscută să se producă abia între anii 1940-1956.
 
@@ -51,7 +50,7 @@ Reflecția filozofică – „Lovelace Objection" – referitoare la faptul că 
 
 În 1943, neurologul Warren McCulloch și matematicianul Walter Pitts schimbă complet paradigma în lucrarea [8], făcând trecerea de la mașini mecanice de calcul la modele matematice ale proceselor cognitive. Aceștia propun pentru prima dată un model matematic pentru creier, neuronii putând fi modelați ca unități logice binare (activat/inactiv) care procesează semnale, activitatea neuronală fiind exprimată în termeni de logică propozițională (AND, OR, NOT). 
 
-Discuția este în acest moment mutată din zona „mașinii care calculează" în zona „mașinii care pot gândi", demonstrând că o rețea suficient de mare de neuroni formali poate realiza orice funcție logică. Lucrarea lor este recunoscută ca actul de naștere al inteligenței artificiale neuronale, propunând un model inspirat direct din biologie. Un atu important al modelului propus de ei este independența de implementarea fizică, modelele putând exista pe orice suport capabil să redea relațiile logice.
+Discuția este în acest moment mutată din zona „mașinii care calculează" în zona „mașinii care poate gândi", demonstrând că o rețea suficient de mare de neuroni formali poate realiza orice funcție logică. Lucrarea lor este recunoscută ca actul de naștere al inteligenței artificiale neuronale, propunând un model inspirat direct din biologie. Un atu important al modelului propus de ei este independența de implementarea fizică, modelele putând exista pe orice suport capabil să redea relațiile logice.
 
 ## Între filozofie și știință...
 
