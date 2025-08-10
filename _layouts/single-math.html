@@ -53,7 +53,6 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-
       {% include post_pagination.html %}
     </div>
 
@@ -62,7 +61,6 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -72,7 +70,6 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -88,74 +85,75 @@ layout: default
   {% endif %}
 </div>
 
-<!-- MathJax Support -->
+<!-- MathJax 3 Configuration - UPDATED -->
 {% if page.math %}
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js">
-</script>
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true,
-      tags: 'ams',
-      macros: {
-        RR: "\\mathbb{R}",
-        NN: "\\mathbb{N}",
-        ZZ: "\\mathbb{Z}",
-        QQ: "\\mathbb{Q}",
-        CC: "\\mathbb{C}",
-        argmax: "\\operatorname{argmax}",
-        argmin: "\\operatorname{argmin}"
-      }
-    },
-    options: {
-      ignoreHtmlClass: 'tex2jax_ignore',
-      processHtmlClass: 'tex2jax_process'
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-</script>
-{% endif %}
-
-<!-- Mermaid Diagrams Support -->
-{% if page.mermaid %}
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'default',
-      themeVariables: {
-        primaryColor: '#f4f4f4',
-        primaryTextColor: '#333',
-        primaryBorderColor: '#333',
-        lineColor: '#333',
-        secondaryColor: '#f9f9f9',
-        tertiaryColor: '#fff'
-      },
-      flowchart: {
-        useMaxWidth: true,
-        htmlLabels: true
-      }
-    });
-  });
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    autoload: {
+      color: [],
+      colorV2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process',
+    renderActions: {
+      find_script: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          const sibling = node.previousElementSibling;
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  },
+  loader: {load: ['[tex]/noerrors']},
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      MathJax.startup.promise.then(() => {
+        console.log('MathJax initial typesetting complete');
+      });
+    }
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<!-- Forțează retypeset după încărcare completă -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (typeof MathJax !== 'undefined') {
+    setTimeout(function() {
+      MathJax.typesetPromise([document.body]).then(() => {
+        console.log('Manual retypeset complete');
+      }).catch((err) => console.log('Typeset error:', err));
+    }, 1000);
+  }
+});
 </script>
 {% endif %}
 
 <!-- Custom CSS pentru postări matematice -->
-{% if page.math or page.mermaid %}
+{% if page.math %}
 <style>
-  /* Îmbunătățiri pentru MathJax */
   .MathJax {
     font-size: 1.1em !important;
   }
   
-  /* Stiluri pentru tabele matematice */
   .page__content table {
     margin: 1.5em auto;
     border-collapse: collapse;
@@ -194,73 +192,15 @@ layout: default
     transition: background-color 0.3s ease;
   }
   
-  /* Mermaid styling */
-  .mermaid {
-    margin: 2em 0;
-    text-align: center;
-    background: #fafafa;
-    border-radius: 8px;
-    padding: 20px;
-    border: 1px solid #e1e8ed;
-  }
-  
-  /* Code blocks îmbunătățite */
-  .page__content .highlight {
-    margin: 1.5em 0;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-  
-  .page__content .highlight pre {
-    margin: 0;
-    padding: 20px;
-    background: #f8f8f8;
-    border-left: 4px solid #2196f3;
-    line-height: 1.5;
-  }
-  
-  /* Responsive pentru mobile */
   @media (max-width: 768px) {
-    .page__content table {
-      font-size: 0.85em;
-      margin: 1em 0;
-    }
-    
-    .page__content th, .page__content td {
-      padding: 10px 12px;
-    }
-    
     .MathJax {
       font-size: 0.95em !important;
     }
-    
-    .mermaid {
-      padding: 15px;
-      margin: 1.5em 0;
-    }
   }
   
-  /* Scroll horizontal pentru ecuații lungi */
   .page__content .MathJax_Display {
     overflow-x: auto;
     overflow-y: hidden;
   }
-  
-  /* Categorii și tag-uri pentru postări */
-  .page__taxonomy .page__taxonomy-item {
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .page__taxonomy-item-category {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-  }
-  
-  .page__taxonomy-item-tag {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: white;
-  }
 </style>
-{% endif %}
+{% endif %>
