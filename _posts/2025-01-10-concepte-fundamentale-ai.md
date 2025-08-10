@@ -1,6 +1,6 @@
 ---
 title: 'Construind Sinapse: O Clarificare asupra Conceptelor Fundamentale din Inteligența Artificială'
-date: 2025-01-10
+date: 2025-08-10
 permalink: /posts/2025/01/concepte-fundamentale-ai/
 tags:
   - artificial intelligence
