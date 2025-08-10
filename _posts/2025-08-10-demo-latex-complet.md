@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Test LaTeX simplu"
+title: "Test KaTeX simplu"
 date: 2025-08-10
 ---
 
-Aceasta este o postare de test pentru LaTeX.
+Aceasta este o postare de test pentru KaTeX.
 
-Formula lui Einstein: \\(E = mc^2\\)
+Formula lui Einstein: $E = mc^2$
 
 Teorema lui Pitagora:
 $$a^2 + b^2 = c^2$$
 
-O integralã simplã:
+O integrală simplă:
 $$\int x^2 dx = \frac{x^3}{3} + C$$
 
-Dacă vezi aceste formule frumos formatate, LaTeX funcționează!
+Dacă vezi aceste formule frumos formatate, KaTeX funcționează!
