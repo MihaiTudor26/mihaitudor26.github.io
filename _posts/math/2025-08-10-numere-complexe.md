@@ -111,8 +111,8 @@ Numerele complexe completează lacunele sistemului real. **Teorema fundamentală
 
 > Orice polinom de gradul $n \geq 1$ cu coeficienți complecși are exact $n$ rădăcini complexe (numărând multiplicitatea).
 
-Aceasta înseamnă că ecuații precum $x^2 + 1 = 0$ au soluții în $\mathbb{C}$:
-$$x = \pm i$$
+Aceasta înseamnă că ecuații precum $x^2 + 1 = 0$ au soluții în $\CC$:
+$x = \pm i$
 
 ## Aplicații practice
 
@@ -154,7 +154,7 @@ Pentru a calcula $(1 + i)^8$:
 
 Pentru a extrage rădăcina de ordinul $n$ din $z = re^{i\theta}$:
 
-$$\sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i(\theta + 2\pi k)/n}$$
+$\sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i(\theta + 2\pi k)/n}$
 
 unde $k = 0, 1, 2, \ldots, n-1$.
 
@@ -162,6 +162,33 @@ unde $k = 0, 1, 2, \ldots, n-1$.
 Rădăcinile cubice ale lui $8i$:
 - $8i = 8e^{i\pi/2}$
 - $\sqrt[3]{8i} = 2e^{i(\pi/2 + 2\pi k)/3}$ pentru $k = 0, 1, 2$
+
+## Aplicații în teoria numerelor
+
+Numerele complexe au aplicații surprinzătoare în teoria numerelor. De exemplu, **Teorema celor patru pătrate a lui Jacobi** folosește funcții complexe pentru a demonstra că orice număr întreg pozitiv poate fi scris ca suma a patru pătrate perfecte.
+
+### Funcția zeta a lui Riemann
+
+Celebra funcție zeta:
+$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}$
+
+este definită pentru $s \in \CC$ cu $\text{Re}(s) > 1$ și poate fi extinsă analitic la tot planul complex. **Ipoteza Riemann** afirmă că toate zerourile netriviale ale funcției $\zeta(s)$ au partea reală egală cu $\frac{1}{2}$.
+
+## Identități și formule frumoase
+
+### Formula produsului lui Euler
+$\zeta(s) = \prod_{p \text{ prim}} \frac{1}{1-p^{-s}}$
+
+### Formula lui Viète generalizată
+$\frac{2}{\pi} = \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{2+\sqrt{2}}}{2} \cdot \frac{\sqrt{2+\sqrt{2+\sqrt{2}}}}{2} \cdots$
+
+care poate fi demonstrată elegant folosind numerele complexe.
+
+### Teorema reziduurilor
+Pentru o funcție analitică $f(z)$, integrala pe o curbă închisă $C$ este:
+$\oint_C f(z) dz = 2\pi i \sum \text{Res}(f, z_k)$
+
+unde $z_k$ sunt singularitățile din interiorul lui $C$.
 
 ## Concluzie
 
