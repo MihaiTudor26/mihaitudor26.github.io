@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: single-math
 title: "Introducere în Numerele Complexe: De la Imaginație la Realitate Matematică"
 date: 2025-08-10
 permalink: /matematica/algebra/numere-complexe/
 categories: [matematica, algebra]
 tags: [numere-complexe, algebra, geometrie]
 math: true
-mathjax: true
 ---
 
 # Introducere în Numerele Complexe: De la Imaginație la Realitate Matematică
@@ -136,6 +135,33 @@ Rădăcinile de ordinul $n$ ale unității sunt soluțiile ecuației $z^n = 1$:
 $$z_k = e^{2\pi i k/n}, \quad k = 0, 1, 2, \ldots, n-1$$
 
 Aceste puncte formează un poligon regulat cu $n$ vârfuri pe cercul unitate.
+
+## Puterea lui De Moivre
+
+Pentru ridicarea la putere și extragerea rădăcinilor, folosim **Teorema lui De Moivre**:
+
+$$[r(\cos \theta + i \sin \theta)]^n = r^n(\cos n\theta + i \sin n\theta)$$
+
+sau în forma exponențială:
+$$(re^{i\theta})^n = r^n e^{in\theta}$$
+
+### Exemplu practic:
+Pentru a calcula $(1 + i)^8$:
+1. Convertim în forma polară: $1 + i = \sqrt{2}e^{i\pi/4}$
+2. Aplicăm teorema: $(1 + i)^8 = (\sqrt{2})^8 e^{i \cdot 8 \cdot \pi/4} = 16e^{2\pi i} = 16$
+
+## Rădăcinile complexe
+
+Pentru a extrage rădăcina de ordinul $n$ din $z = re^{i\theta}$:
+
+$$\sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i(\theta + 2\pi k)/n}$$
+
+unde $k = 0, 1, 2, \ldots, n-1$.
+
+### Exemplu:
+Rădăcinile cubice ale lui $8i$:
+- $8i = 8e^{i\pi/2}$
+- $\sqrt[3]{8i} = 2e^{i(\pi/2 + 2\pi k)/3}$ pentru $k = 0, 1, 2$
 
 ## Concluzie
 
