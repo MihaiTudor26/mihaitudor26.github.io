@@ -10,7 +10,7 @@ tags:
   - cercetare
 ---
 
-Privind marea și încercând să o cuprinzi cu ochii minții, vrând să treci dincolo de linia orizontului trasată ca un zid în fața curiozității, inevitabil te pleci în fața imensității care capătă forme abisale la nivelul percepției. Uneori aceeași trăire o experimentezi în fața creației umane, mai ales dacă aceasta are capacitatea de a se metamorfoza, fiind într-un proces continuu de perfecționare.
+Privind marea și încercând să o cuprinzi cu ochii minții, vrând să treci dincolo de linia orizontului trasată ca un zid în fața curiozității, inevitabil te pleci în fața imensității care capătă forme abisale la nivelul percepției. Uneori aceeași trăire o experimentezi în fața creației umane, mai ales dacă aceasta are capacitatea de a se metamorfoza, fiind într-un proces continuu de perfecționare
 
 Cu o dublare a numărului de publicații la fiecare 23 de luni conform datelor arXiv (ResearchGate, 2025) și o creștere între 21,39 și 241,36 de ori din 1980 până în 2024, având în vedere datele CSET (Center for Security and Emerging Technology, Universitatea Georgetown) procesate de Our World in Data [1], cercetarea în domeniul inteligenței artificiale capătă un avânt impresionant la nivel global.
 
