@@ -6,7 +6,17 @@ permalink: /matematica/algebra/numere-complexe/
 categories: [matematica, algebra]
 tags: [numere-complexe, algebra, geometrie]
 math: true
+mathjax: true
 ---
+
+<script>
+// Forțează reinițializarea MathJax după încărcare
+if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+  MathJax.typesetPromise().then(() => {
+    console.log('MathJax typeset complete');
+  }).catch((err) => console.log(err.message));
+}
+</script>
 
 # Introducere în Numerele Complexe: De la Imaginație la Realitate Matematică
 
@@ -199,3 +209,4 @@ Frumusețea numerelor complexe constă în faptul că extind într-un mod natura
 ---
 
 *Pentru mai multe detalii despre numerele complexe și aplicațiile lor, recomand studiul analizei complexe și teoriei funcțiilor analitice.*
+
