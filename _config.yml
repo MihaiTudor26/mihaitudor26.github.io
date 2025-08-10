@@ -194,8 +194,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  math_engine: mathjax  # ADAUGĂ ACEASTĂ LINIE
-  syntax_highlighter: rouge  # ADAUGĂ ACEASTĂ LINIE
+  math_engine: null
+  syntax_highlighter: rouge
 
 # Collections
 collections:
