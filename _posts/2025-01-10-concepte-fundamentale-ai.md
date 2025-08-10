@@ -44,6 +44,11 @@ Cei trei termeni fundamentali AI, ML și DL nu pot fi priviți ca termeni concur
 
 Inteligența artificială o putem identifica prin analogie cu Medicina, ca domeniu vast și cuprinzător, Machine Learning - chirurgia, ca specializare fundamentală a medicinii, Neural Networks - instrumentele chirurgicale, indispensabile actului chirurgical, iar Deep Learning - chirurgia robotică avansată, o formă sofisticată de chirurgie care folosește instrumente complexe.
 
+---
+
+![The Creation of Adam](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg/1024px-Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg)
+*Michelangelo - "The Creation of Adam" (1508-1512) - Simbolizând transmiterea inteligenței de la creator la creație*
+
 ## Bibliografie
 
 [1] Center for Security and Emerging Technology (2025). "Annual scholarly publications on artificial intelligence". Processed by Our World in Data. https://ourworldindata.org/grapher/annual-scholarly-publications-on-artificial-intelligence.
