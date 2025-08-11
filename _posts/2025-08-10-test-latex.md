@@ -29,7 +29,7 @@ Una dintre cele mai elegante formule din algebră rămâne soluția ecuației de
 
 Pentru ecuația \\(ax^2 + bx + c = 0\\), soluțiile sunt:
 
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+\\(x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\\)
 
 Discriminantul \\(\Delta = b^2 - 4ac\\) ne spune totul despre natura soluțiilor:
 - Dacă \\(\Delta > 0\\): două soluții reale distincte
