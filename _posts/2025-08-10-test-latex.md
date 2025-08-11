@@ -37,11 +37,12 @@ Discriminantul \\(\Delta = b^2 - 4ac\\) ne spune totul despre natura soluțiilor
 - Dacă \\(\Delta < 0\\): două soluții complexe conjugate
 
 ### Identități remarcabile
-$$\begin{align}
-(a + b)^2 &= a^2 + 2ab + b^2 \\
-(a - b)^2 &= a^2 - 2ab + b^2 \\
-a^2 - b^2 &= (a + b)(a - b)
-\end{align}$$
+
+$$(a + b)^2 = a^2 + 2ab + b^2$$
+
+$$(a - b)^2 = a^2 - 2ab + b^2$$
+
+$$a^2 - b^2 = (a + b)(a - b)$$
 
 ## 2. Analiza Matematică - Limite și Continuitate
 
@@ -60,12 +61,14 @@ Definiția derivatei ca limită:
 $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
 
 Câteva derivate fundamentale:
-$$\begin{align}
-\frac{d}{dx}(x^n) &= nx^{n-1} \\
-\frac{d}{dx}(e^x) &= e^x \\
-\frac{d}{dx}(\ln x) &= \frac{1}{x} \\
-\frac{d}{dx}(\sin x) &= \cos x
-\end{align}$$
+
+$$\frac{d}{dx}(x^n) = nx^{n-1}$$
+
+$$\frac{d}{dx}(e^x) = e^x$$
+
+$$\frac{d}{dx}(\ln x) = \frac{1}{x}$$
+
+$$\frac{d}{dx}(\sin x) = \cos x$$
 
 ## 3. Integrarea - Arta Calculului Integral
 
@@ -82,7 +85,7 @@ Integrala care definește funcția gamma:
 
 $$\Gamma(n) = \int_0^{\infty} t^{n-1} e^{-t} dt$$
 
-Pentru \\(n \in \mathbb{N}\\): \\(\Gamma(n) = (n-1)!\\)
+Pentru \\(n\\) natural: \\(\Gamma(n) = (n-1)!\\)
 
 ### Integrale cu substituții
 Un exemplu elegant de substituție trigonometrică:
@@ -120,7 +123,7 @@ Pentru o matrice \\(A\\), valorile proprii se găsesc din:
 
 $$\det(A - \lambda I) = 0$$
 
-### Produsul scalar în \\(\mathbb{R}^n\\)
+### Produsul scalar în spațiul real
 $$\langle \vec{u}, \vec{v} \rangle = \sum_{i=1}^n u_i v_i = |\vec{u}||\vec{v}|\cos\theta$$
 
 ## 6. Geometrie și Trigonometrie
@@ -129,11 +132,12 @@ $$\langle \vec{u}, \vec{v} \rangle = \sum_{i=1}^n u_i v_i = |\vec{u}||\vec{v}|\c
 $$\sin^2 x + \cos^2 x = 1$$
 
 ### Formulele de adunare
-$$\begin{align}
-\sin(a + b) &= \sin a \cos b + \cos a \sin b \\
-\cos(a + b) &= \cos a \cos b - \sin a \sin b \\
-\tan(a + b) &= \frac{\tan a + \tan b}{1 - \tan a \tan b}
-\end{align}$$
+
+$$\sin(a + b) = \sin a \cos b + \cos a \sin b$$
+
+$$\cos(a + b) = \cos a \cos b - \sin a \sin b$$
+
+$$\tan(a + b) = \frac{\tan a + \tan b}{1 - \tan a \tan b}$$
 
 ### Legea cosinusului
 În orice triunghi:
