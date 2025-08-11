@@ -11,13 +11,16 @@ tags:
 <script>
 window.MathJax = {
   tex: {
-    inlineMath: [['\\(', '\\)']],
-    displayMath: [['$$', '$$']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: {
+    processHtmlClass: 'arithmatex'
   }
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 # Călătorie prin Universul Formulelor Matematice
 
 Matematica este limbajul prin care universul îşi exprimă frumuseţea. De la micile formule care descriu mişcarea unei particule până la ecuaţiile complexe care guvernează galaxiile, fiecare expresie matematică ascunde povești fascinante.
