@@ -29,7 +29,7 @@ Dacă vezi formulele frumos formatate și sidebar-ul în stânga, totul funcțio
 
 Diagrama de mai jos ilustrează o rețea neurală simplă cu 3 intrări și o ieșire:
 
-![Rețea Neurală](/images/incercare.png)
+<img src="/images/incercare.png" alt="Rețea Neurală" style="width: 300px; height: auto; display: block; margin: 0 auto;">
 
 Această diagramă reprezintă funcția:
 $$y = f(w_1x_1 + w_2x_2 + w_3x_3)$$
