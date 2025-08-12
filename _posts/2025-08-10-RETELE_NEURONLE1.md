@@ -49,10 +49,10 @@ La fel ca și neuronii biologici, cei artificiali funcționează pe baza unei st
 Pentru a putea avea o imagine mai intuitivă asupra aspectelor teoretice ne raportăm la următorul exemplu. Vom considera un neuron Y care primește semnale de intrare (inputs) de la trei neuroni \\(X_{1}\\), \\(X_{2}\\) și \\(X_{3}\\). Nivelul de activitate al acestor neuroni (activity level) este dat de \\(x_{1}\\), \\(x_{2}\\), respectiv \\(x_{3}\\) (în acest exemplu, cu rol de fixare la nivelul percepției asupra conceptelor, \\(x_{1}\\), \\(x_{2}\\) și \\(x_{3}\\) pot fi privite ca fiind valori numerice concrete). „Forța conexiunilor sinaptice" dintre neuronii  \\(X_{1}\\), \\(X_{2}\\) și \\(X_{3}\\) și neuronul \\(Y\\) se realizează prin ponderile  \\(w_{1}\\), \\(w_{2}\\) și \\(w_{3}\\). În aceste condiții semnalul primit de neuronul \\(Y\\) (net input), este o sumă ponderată de forma:
 
 \\[
-y_{net_input} = w_{1}x_{1} + w_{2}x_{2} + w_{3}x_{3}
+y_{input} = w_{1}x_{1} + w_{2}x_{2} + w_{3}x_{3}
 \\]
 
-Activarea neuronului \\(Y\\) (activity level) se realizează prin aplicarea funcției de activare (activation function) asupra semnalului primit \\(y_{net_input}\\) astfel încât \\(y = f(y_{net_input})\\), unde \\(y\\) devine nivelul de activitate corespunzător neuronului \\(Y\\), iar \\(f\\), funcția de activare.
+Activarea neuronului \\(Y\\) (activity level) se realizează prin aplicarea funcției de activare (activation function) asupra semnalului primit \\(y_{input}\\) astfel încât \\(y = f(y_{input})\\), unde \\(y\\) devine nivelul de activitate corespunzător neuronului \\(Y\\), iar \\(f\\), funcția de activare.
 
 <img src="/images/incercare.png" alt="Rețea Neurală" style="width: 300px; height: auto; display: block; margin: 0 auto;">
 
