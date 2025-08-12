@@ -10,12 +10,18 @@ tags:
 <script>
 window.MathJax = {
   tex: {
-    inlineMath: [['\\(', '\\)']],
-    displayMath: [['$$', '$$']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    tags: 'ams'
+  },
+  options: {
+    processHtmlClass: 'arithmatex'
   }
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 
 Începând cu această postare căutăm să înțelegem mai bine mecanismele care stau în spatele Rețelelor Neuronale, făcând apel la aparatul matematic pentru a avea o viziune mai amplă asupra proceselor care se derulează în spatele cortinei. Consider că simplitatea abordării este cheia de a deschide ușa către un tărâm atât de complex ce acoperă începutul unui transit tehnologic extrem de fertil.
