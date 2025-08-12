@@ -1,6 +1,6 @@
 ---
-title: "Rețele neuronale - o privire de ansamblu"
-date: 2025-08-12
+title: "Rețele neuronale - o fixare a elementelor de bază"
+date: 2025-08-10
 tags:
   - retele-neuronale
   - inteligenta-artificiala
@@ -16,6 +16,7 @@ window.MathJax = {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+# Rețele neuronale - o fixare a elementelor de bază
 
 Începând cu această postare căutăm să înțelegem mai bine mecanismele care stau în spatele Rețelelor Neuronale, făcând apel la aparatul matematic pentru a avea o viziune mai amplă asupra proceselor care se derulează în spatele cortinei. Consider că simplitatea abordării este cheia de a deschide ușa către un tărâm atât de complex ce acoperă începutul unui transit tehnologic extrem de fertil.
 
@@ -25,7 +26,7 @@ Având la baza proiectării lor modele matematice complexe care se derulează la
 - **ponderile** (weights) - echivalenta „forței" conexiunilor sinaptice  
 - **funcția de activare** (activation function) - determină dacă și în ce măsură un neuron „se activează" și transmite semnalul mai departe
 
-Modul de legare al neuronilor în rețea (neuronal architecture), metoda de determinare a ponderilor (training) și funcția de activare (activation function) joacă, de asemenea, un rol esențial în activitatea de procesare a informației la nivelul rețelei.
+Modul de legare al neuronilor în rețea (neuronal architecture), metoda de determinare a ponderilor (training) și funcția de activare joacă, de asemenea, un rol esențial în activitatea de procesare a informației la nivelul rețelei.
 
 ## O triadă de întrebări justificate
 
@@ -33,7 +34,7 @@ Modul de legare al neuronilor în rețea (neuronal architecture), metoda de dete
 - „Cum folosim rețele neuronale în soluționarea unor probleme concrete?"
 - „Când putem folosi rețele neuronale?"
 
-Aceste întrebări vor deveni din acest punct o motivație puternică în încercarea noastră de a înțelege întregul proces pe parcursul mai multor postări din blog.
+vor deveni din acest punct o motivație puternică în încercarea noastră de a înțelege întregul proces pe parcursul mai multor postări din blog.
 
 ## O abordare vizuală a rețelelor neuronale
 
