@@ -252,15 +252,18 @@ Funcțiile pe care noi trebuie să le avem în vedere sunt următoarele:
 Pentru funcția de cost, formula (1) devine:
 
 $$\text{derivata} = \frac{d}{dw}[(\text{input} \times w - \text{goal})^2]$$
+
 $$= 2 \times (\text{input} \times w - \text{goal}) \times \frac{d}{dw}[\text{input} \times w - \text{goal}]$$
+
 $$= 2 \times (\text{input} \times w - \text{goal}) \times \text{input}$$
+
 $$= 2 \times \text{error} \times \text{input}$$
 
 Un alt amănunt important pe care trebuie să-l avem în vedere este să controlăm cu atenție cât de mare trebuie să fie actualizarea ponderii la fiecare iterație. Astfel apare nevoia introducerii unui nou parametru în procesul de învățare numit **learning rate**. Tehnic vorbind, acesta este un hiperparametru (se setează manual, iar valoarea sa rămâne constantă pe parcursul procesului de antrenament al modelului), alegerea valorii optime a acestuia influențând convergența algoritmului.
 
 Astfel, algoritmul de optimizare care minimizează funcția de eroare prin ajustarea parametrilor în direcția opusă gradientului ne conduce la următoarea formulă generală:
 
-$$\text{parameter\_nou} = \text{parameter\_vechi} - (\text{learning\_rate} \times \text{derivată})$$
+$$\text{parameter_{nou}} = \text{parameter_{vechi}} - (\text{learning_rate} \times \text{derivată})$$
 
 ## Implementarea algoritmului de optimizare
 
