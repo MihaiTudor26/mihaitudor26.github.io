@@ -114,9 +114,9 @@ Analizând rezultatele furnizate de rețea, observăm că singurul caz în care 
    - rețeaua "se concentrează" mai mult pe corectarea erorilor mari decât pe cele mici
    
    **Eroare absolută vs Eroare pătratică:**
-   - $|error| = 0.1 \rightarrow error^2 = 0.01$ (eroare mică → penalizare mai mică)
-   - $|error| = 1.0 \rightarrow error^2 = 1.0$ (eroare medie → penalizare similară)  
-   - $|error| = 2.0 \rightarrow error^2 = 4.0$ (eroare mare → penalizare mult mai mare!)
+   - |error| = 0.1 → error² = 0.01 (eroare mică → penalizare mai mică)
+   - |error| = 1.0 → error² = 1.0 (eroare medie → penalizare similară)  
+   - |error| = 2.0 → error² = 4.0 (eroare mare → penalizare mult mai mare!)
 
    Totuși, trebuie punctat în acest caz faptul că devine sensibilă la outliers (valorile extreme). Poate "supra-penaliza" erorile mari care, într-un set mare de date de antrenament, acestea sunt legitime și pot apărea. O analiză complexă a acestei sensibilități o vom aborda cu atenție într-o postare viitoare.
 
