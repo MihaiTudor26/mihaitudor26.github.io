@@ -104,6 +104,7 @@ Raportându-mă la partea tehnică, personal prefer să lucrez în Jupyter Noteb
 ## De la simplu la complex...
 
 Componentele de bază ale oricărei rețele neuronale determină următoarea triadă:
+
 $$\text{input} \longrightarrow \text{weight} \longrightarrow \text{prediction}$$
 
 Simplist, le putem caracteriza pe acestea astfel:
@@ -183,7 +184,11 @@ Analizând rezultatele furnizate de rețea, observăm că singurul caz în care 
 
 În acest moment avem cadrul necesar pentru a discuta câteva aspecte de ordin tehnic care se desprind:
 
-**1.** Surprinzător sau nu, codul propus definește scheletul celei mai simple rețele neuronale având cele trei concepte care stau la baza arhitecturii acesteia: $\text{input} \longrightarrow \text{weight} \longrightarrow \text{prediction}$. Mai exact, până în acest punct, codul mimează o regresie liniară simplificată. Vorbim în acest caz de Supervised Learning - rețeaua învață să mapeze input-urile la output-urile dorite.
+**1.** Surprinzător sau nu, codul propus definește scheletul celei mai simple rețele neuronale având cele trei concepte care stau la baza arhitecturii acesteia: 
+
+$$\text{input} \longrightarrow \text{weight} \longrightarrow \text{prediction}$$. 
+
+Mai exact, până în acest punct, codul mimează o regresie liniară simplificată. Vorbim în acest caz de Supervised Learning - rețeaua învață să mapeze input-urile la output-urile dorite.
 
 **2.** Pentru a putea interpreta erorile, am folosit Eroarea pătratică (Mean Squared Error - MSE), aceasta având câteva avantaje clare comparativ cu eroarea absolută:
    - rețeaua "se concentrează" mai mult pe corectarea erorilor mari decât pe cele mici
@@ -200,7 +205,9 @@ Analizând rezultatele furnizate de rețea, observăm că singurul caz în care 
      - în cazul transformării liniare (cazul particular abordat de rețeaua propusă), MSE este convexă:
      
      $$\text{prediction} = \text{weight} \times \text{input}$$
+     
      $$\text{MSE}(\text{weight}) = \frac{1}{n} \sum(\text{weight} \times x_i - y_i)^2$$
+     
      $$\frac{\partial^2 \text{MSE}}{\partial w^2} = \frac{2}{n} \sum x_i^2 \geq 0 \text{ (întotdeauna pozitivă!)}$$
      
      Acest aspect conduce la determinarea unui minim global, viteza de convergență fiind bună. În cazul rețelelor neuronale complexe în care intervin funcții de activare neliniare, convexitatea se pierde (altfel spus pot apărea mai multe minime locale posibile).
