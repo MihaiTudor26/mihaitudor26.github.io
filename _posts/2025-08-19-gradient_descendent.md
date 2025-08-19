@@ -7,200 +7,6 @@ tags:
   - inteligenta-artificială
   - python
 ---
-
-<style>
-/* Enhanced visual styling while preserving original structure */
-body {
-    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-    line-height: 1.7;
-    color: #2c3e50;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    padding: 2.5rem;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-/* Math formula styling */
-.MathJax {
-    font-size: 1.1em !important;
-}
-
-mjx-container[display="true"] {
-    background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
-    border: 2px solid #667eea;
-    border-radius: 12px;
-    padding: 1.2rem !important;
-    margin: 1.5rem 0 !important;
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
-}
-
-mjx-container[display="true"] mjx-math {
-    color: #2c3e50 !important;
-}
-
-/* Inline math styling */
-mjx-container:not([display="true"]) {
-    background: linear-gradient(135deg, #f0f4ff 0%, #e6f0ff 100%);
-    border-radius: 6px;
-    padding: 0.3rem 0.6rem;
-    margin: 0 0.2rem;
-    border: 1px solid #d1e0ff;
-}
-
-/* Headers styling */
-h1 {
-    color: #667eea;
-    font-size: 2.2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    font-weight: 600;
-    text-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
-}
-
-h2 {
-    color: #667eea;
-    font-size: 1.6rem;
-    margin: 2.5rem 0 1.5rem 0;
-    font-weight: 500;
-    border-left: 4px solid #667eea;
-    padding-left: 1rem;
-    background: linear-gradient(135deg, #f8f9ff 0%, transparent 100%);
-    padding: 0.8rem 0 0.8rem 1rem;
-    border-radius: 0 8px 8px 0;
-}
-
-h3 {
-    color: #764ba2;
-    font-size: 1.3rem;
-    margin: 2rem 0 1rem 0;
-    font-weight: 500;
-}
-
-/* Paragraph styling */
-p {
-    margin-bottom: 1.3rem;
-    text-align: justify;
-    font-size: 1.05rem;
-    line-height: 1.7;
-}
-
-/* Code blocks styling */
-pre {
-    background: #2c3e50 !important;
-    border-radius: 12px !important;
-    padding: 1.5rem !important;
-    margin: 1.5rem 0 !important;
-    overflow-x: auto;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    border: 1px solid #34495e;
-}
-
-code {
-    color: #ecf0f1 !important;
-    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace !important;
-    font-size: 0.95rem !important;
-    line-height: 1.6;
-}
-
-/* Blockquote styling */
-blockquote {
-    background: linear-gradient(135deg, #e8f0ff 0%, #f0f8ff 100%);
-    border-left: 5px solid #667eea;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    font-style: italic;
-    font-size: 1.15rem;
-    color: #34495e;
-    border-radius: 0 12px 12px 0;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
-    font-weight: 500;
-}
-
-/* Lists styling */
-ul, ol {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
-
-li {
-    margin-bottom: 0.8rem;
-    font-size: 1.05rem;
-    line-height: 1.6;
-}
-
-/* Strong text styling */
-strong {
-    color: #667eea;
-    font-weight: 600;
-}
-
-/* Special styling for mathematical content */
-.math-content {
-    background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
-    border: 2px solid #667eea;
-    border-radius: 15px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
-}
-
-/* Enhanced spacing for better readability */
-.section-break {
-    margin: 3rem 0;
-    height: 1px;
-    background: linear-gradient(135deg, transparent 0%, #667eea 50%, transparent 100%);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-    
-    .container {
-        padding: 1.5rem;
-        border-radius: 15px;
-    }
-    
-    h1 {
-        font-size: 1.8rem;
-    }
-    
-    h2 {
-        font-size: 1.4rem;
-    }
-    
-    mjx-container[display="true"] {
-        padding: 1rem !important;
-        margin: 1rem 0 !important;
-    }
-}
-
-/* Print optimization */
-@media print {
-    body {
-        background: white;
-    }
-    
-    .container {
-        background: white;
-        box-shadow: none;
-        border: none;
-    }
-}
-</style>
-
 <script>
 window.MathJax = {
   tex: {
@@ -216,7 +22,80 @@ window.MathJax = {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<div class="container">
+<style>
+/* Styling pentru formulele matematice - mai compact și colorat */
+mjx-container[display="true"] {
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%) !important;
+    border: 1px solid #4a90e2 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    margin: 1.2rem 0 !important;
+    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.1) !important;
+}
+
+mjx-container:not([display="true"]) {
+    background: #f8fbff !important;
+    border: 1px solid #d1e7ff !important;
+    border-radius: 4px !important;
+    padding: 0.2rem 0.4rem !important;
+    margin: 0 0.1rem !important;
+}
+
+/* Îmbunătățiri pentru blocquote - pentru întrebările importante */
+blockquote {
+    background: linear-gradient(135deg, #fff7e6 0%, #ffeaa7 100%) !important;
+    border-left: 4px solid #fdcb6e !important;
+    border-radius: 0 6px 6px 0 !important;
+    padding: 1rem 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    box-shadow: 0 2px 6px rgba(253, 203, 110, 0.2) !important;
+}
+
+/* Styling pentru codul Python - fundal mai plăcut */
+pre {
+    background: #2c3e50 !important;
+    border-radius: 6px !important;
+    border: 1px solid #34495e !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
+
+code {
+    color: #ecf0f1 !important;
+}
+
+/* Output-uri - fundal verzui pentru rezultate */
+pre:has(+ p:contains("Student")) + p,
+p:contains("Student 1:") {
+    background: #f0fff4 !important;
+    border: 1px solid #90ee90 !important;
+    border-radius: 6px !important;
+    padding: 1rem !important;
+    font-family: monospace !important;
+    white-space: pre-line !important;
+}
+
+/* Pentru listele cu punct - spacing mai bun */
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Strong text - culoare subtil diferită */
+strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Headers - culori subtile */
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    color: #2c3e50;
+}
+</style>
 
 În ansamblu, putem afirma faptul că rețelele neuronale încearcă să găsească modele (patterns) în date pentru a face predicții. O rețea neuronală "învață" prin încercări repetate de a prezice output-ul corect, ajustându-și parametrii interni (ponderile) când greșește. În continuare, ne propunem să analizăm acest mecanism implementând o serie de rețele neuronale simple în care urmărim procesul ce se derulează în spatele cortinei, încercând să transpunem informațiile deduse în contextul literaturii de specialitate. Consider că o abordare academică riguroasă, dezvoltată încă de la primii pași, poate uneori să mascheze tocmai ideile fundamentale care, în esență, pot fi desprinse doar prin încercări repetate și erori de gândire care, în cele din urmă, dacă sunt însoțite de concluzii concrete și riguros construite, converg la înțelegerea unor concepte fundamentale.
 
@@ -460,5 +339,3 @@ Abordarea noastră are câteva limitări clare:
 > **"Cum actualizăm optim multiple ponderi simultan?"**
 > 
 > **"Cum procesăm multiple input-uri în faza de antrenament?"**
-
-</div>
