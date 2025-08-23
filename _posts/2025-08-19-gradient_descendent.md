@@ -1,5 +1,5 @@
 ---
-title: "Rețele neuronale - Un prim contact"
+title: "Fundamentele rețelelor neuronale: De la concept la implementare"
 date: 2025-08-19
 tags:
   - matematică
@@ -180,9 +180,9 @@ h3 {
 }
 </style>
 
-În ansamblu, putem afirma faptul că rețelele neuronale încearcă să găsească modele (patterns) în date pentru a face predicții. O rețea neuronală "învață" prin încercări repetate de a prezice output-ul corect, ajustându-și parametrii interni (ponderile) când greșește. În continuare, ne propunem să analizăm acest mecanism implementând o serie de rețele neuronale simple în care urmărim procesul ce se derulează în spatele cortinei, încercând să transpunem informațiile deduse în contextul literaturii de specialitate. Consider că o abordare academică riguroasă, dezvoltată încă de la primii pași, poate uneori să mascheze tocmai ideile fundamentale care, în esență, pot fi desprinse doar prin încercări repetate și erori de gândire care, în cele din urmă, dacă sunt însoțite de concluzii concrete și riguros construite, converg la înțelegerea unor concepte fundamentale.
+Rețelele neuronale identifică modele în date pentru a genera predicții, învățând prin optimizarea iterativă a parametrilor interni (ponderilor) în funcție de eroarea de predicție. Această analiză explorează mecanismul fundamental prin implementarea de rețele simple, urmărind procesele interne și conectând observațiile practice cu teoria de specialitate. Abordarea hands-on permite înțelegerea conceptelor core care pot fi obscurizate de formulările teoretice complexe.
 
-Raportându-mă la partea tehnică, personal prefer să lucrez în Jupyter Notebook, deoarece îmi oferă o libertate mai mare în a compila codul scris în Python din spatele rețelelor neuronale și de a-l putea organiza eficient. Pentru început, NumPy rămâne librăria de bază prin intermediul căreia fac apel la instrumentele matematice (calculul matriceal și vectorial, în special) necesare implementării.
+Implementarea se realizează în Jupyter Notebook pentru flexibilitatea organizării și testării codului Python. NumPy oferă fundamentul matematic necesar - operații matriceale și vectoriale esențiale pentru construirea rețelelor neuronale.
 
 ## De la simplu la complex...
 
