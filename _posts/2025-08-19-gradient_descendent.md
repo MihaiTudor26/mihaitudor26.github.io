@@ -184,7 +184,7 @@ Rețelele neuronale identifică modele în date pentru a genera predicții, înv
 
 Implementarea se realizează în Jupyter Notebook pentru flexibilitatea organizării și testării codului Python. Librăria NumPy oferă fundamentul matematic necesar - operații matriceale și vectoriale esențiale pentru construirea rețelelor neuronale.
 
-## De la simplu la complex...
+## De la simplu la complex
 
 Componentele de bază ale oricărei rețele neuronale determină următoarea triadă:
 
