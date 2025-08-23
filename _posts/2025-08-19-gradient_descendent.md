@@ -182,7 +182,7 @@ h3 {
 
 Rețelele neuronale identifică modele în date pentru a genera predicții, învățând prin optimizarea iterativă a parametrilor interni (ponderilor) în funcție de eroarea de predicție. Această analiză explorează mecanismul fundamental prin implementarea de rețele simple, urmărind procesele interne și conectând observațiile practice cu teoria de specialitate. Abordarea hands-on permite înțelegerea conceptelor core care pot fi obscurizate de formulările teoretice complexe.
 
-Implementarea se realizează în Jupyter Notebook pentru flexibilitatea organizării și testării codului Python. NumPy oferă fundamentul matematic necesar - operații matriceale și vectoriale esențiale pentru construirea rețelelor neuronale.
+Implementarea se realizează în Jupyter Notebook pentru flexibilitatea organizării și testării codului Python. Librăria NumPy oferă fundamentul matematic necesar - operații matriceale și vectoriale esențiale pentru construirea rețelelor neuronale.
 
 ## De la simplu la complex...
 
