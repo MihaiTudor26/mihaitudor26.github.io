@@ -340,7 +340,7 @@ $$= 2 \times (\text{input} \times w - \text{goal}) \times \frac{d}{dw}[\text{inp
 
 $$= 2 \times (\text{input} \times w - \text{goal}) \times \text{input}$$
 
-$$= 2 \times \text{error} \times \text{input}$$.
+$$= 2 \times \text{error} \times \text{input}.$$
 
 Un alt amănunt important pe care trebuie să-l avem în vedere este să controlăm cu atenție cât de mare trebuie să fie actualizarea ponderii la fiecare iterație. Astfel apare nevoia introducerii unui nou parametru în procesul de învățare numit **learning rate**. Tehnic vorbind, acesta este un hiperparametru (se setează manual, iar valoarea sa rămâne constantă pe parcursul procesului de antrenament al modelului), alegerea valorii optime a acestuia influențând convergența algoritmului. Constanta "2" care apare în calculul derivatei funcției de cost, 
 în acest caz este absorbită learning rate.
