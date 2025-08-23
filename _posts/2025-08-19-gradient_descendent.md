@@ -36,11 +36,37 @@ mjx-container[display="true"] {
     margin: 1.5rem 0 !important;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
     position: relative !important;
+    overflow-x: auto !important;
+    max-width: 100% !important;
 }
 
 mjx-container[display="true"]:hover {
     box-shadow: 0 2px 8px rgba(74, 144, 226, 0.08) !important;
     border-left: 3px solid #2c5aa0 !important;
+}
+
+/* Fix pentru formulele matematice pe mobile */
+@media (max-width: 768px) {
+    mjx-container[display="true"] {
+        padding: 1rem !important;
+        margin: 1rem 0 !important;
+        font-size: 0.9em !important;
+        overflow-x: scroll !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+    
+    mjx-container[display="true"] mjx-math {
+        max-width: none !important;
+        white-space: nowrap !important;
+    }
+}
+
+/* Pentru ecrane foarte mici */
+@media (max-width: 480px) {
+    mjx-container[display="true"] {
+        padding: 0.8rem !important;
+        font-size: 0.85em !important;
+    }
 }
 
 mjx-container:not([display="true"]) {
