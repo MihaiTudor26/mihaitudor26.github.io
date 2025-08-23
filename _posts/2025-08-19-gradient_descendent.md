@@ -21,22 +21,32 @@ window.MathJax = {
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-python.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
 
 <style>
-/* Styling pentru formulele matematice - mai compact și colorat */
+/* Styling pentru formulele matematice - mai discret și profesionist */
 mjx-container[display="true"] {
-    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%) !important;
-    border: 1px solid #4a90e2 !important;
-    border-radius: 8px !important;
-    padding: 1rem !important;
-    margin: 1.2rem 0 !important;
-    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.1) !important;
+    background: linear-gradient(135deg, #fafbfc 0%, #f8f9fa 100%) !important;
+    border: 1px solid #e1e5e9 !important;
+    border-left: 3px solid #4a90e2 !important;
+    border-radius: 4px !important;
+    padding: 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+    position: relative !important;
+}
+
+mjx-container[display="true"]:hover {
+    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.08) !important;
+    border-left: 3px solid #2c5aa0 !important;
 }
 
 mjx-container:not([display="true"]) {
-    background: #f8fbff !important;
-    border: 1px solid #d1e7ff !important;
-    border-radius: 4px !important;
+    background: #f8f9fa !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 3px !important;
     padding: 0.2rem 0.4rem !important;
     margin: 0 0.1rem !important;
 }
@@ -51,27 +61,74 @@ blockquote {
     box-shadow: 0 2px 6px rgba(253, 203, 110, 0.2) !important;
 }
 
-/* Styling pentru codul Python - fundal mai plăcut */
+/* Styling pentru codul Python - fundal alb cu syntax highlighting */
 pre {
-    background: #2c3e50 !important;
-    border-radius: 6px !important;
-    border: 1px solid #34495e !important;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+    background: #ffffff !important;
+    border: 1px solid #e1e5e9 !important;
+    border-left: 3px solid #28a745 !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+    padding: 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    overflow-x: auto !important;
+}
+
+pre:hover {
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.08) !important;
+    border-left: 3px solid #218838 !important;
+}
+
+/* Syntax highlighting pentru Python */
+.token.keyword {
+    color: #d73a49 !important;
+    font-weight: 600 !important;
+}
+
+.token.function {
+    color: #6f42c1 !important;
+}
+
+.token.string {
+    color: #032f62 !important;
+}
+
+.token.number {
+    color: #005cc5 !important;
+}
+
+.token.comment {
+    color: #6a737d !important;
+    font-style: italic !important;
+}
+
+.token.operator {
+    color: #d73a49 !important;
+}
+
+.token.punctuation {
+    color: #24292e !important;
 }
 
 code {
-    color: #ecf0f1 !important;
+    color: #24292e !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
 }
 
 /* Output-uri - fundal verzui pentru rezultate */
 pre:has(+ p:contains("Student")) + p,
 p:contains("Student 1:") {
-    background: #f0fff4 !important;
-    border: 1px solid #90ee90 !important;
-    border-radius: 6px !important;
+    background: #f8fff9 !important;
+    border: 1px solid #d4edda !important;
+    border-left: 3px solid #28a745 !important;
+    border-radius: 4px !important;
     padding: 1rem !important;
-    font-family: monospace !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace !important;
     white-space: pre-line !important;
+    color: #155724 !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
 }
 
 /* Pentru listele cu punct - spacing mai bun */
