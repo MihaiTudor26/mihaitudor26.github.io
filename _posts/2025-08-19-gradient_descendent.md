@@ -281,7 +281,7 @@ Mai exact, până în acest punct, codul mimează o regresie liniară simplifica
    - |error| = 1.0 → error² = 1.0 (eroare medie → penalizare similară)  
    - |error| = 2.0 → error² = 4.0 (eroare mare → penalizare mult mai mare!)
 
-   Totuși, trebuie punctat în acest caz faptul că devine sensibilă la outliers (valorile extreme). Poate "supra-penaliza" erorile mari care, într-un set mare de date de antrenament, acestea sunt legitime și pot apărea. O analiză complexă a acestei sensibilități o vom aborda cu atenție într-o postare viitoare.
+   Totuși, trebuie punctat în acest caz faptul că devine sensibilă la outliers (valorile extreme). Poate "supra-penaliza" erorile mari care, într-un set mare de date de antrenament, acestea fiind legitime și pot apărea. O analiză complexă a acestei sensibilități o vom aborda cu atenție într-o postare viitoare.
 
    - Eroarea pătratică oferă proprietăți matematice valoroase în contextul optimizării rețelei propuse:
      - este o funcție diferențiabilă pe tot domeniul de definiție (eroarea absolută nu este diferențiabilă în punctul 0), ceea ce ne permite calculul gradientului pentru optimizare (aspect pe care îl vom analiza în cadrul postării)
