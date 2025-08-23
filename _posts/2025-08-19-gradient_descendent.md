@@ -269,7 +269,7 @@ Analizând rezultatele furnizate de rețea, observăm că singurul caz în care 
 
 **1.** Surprinzător sau nu, codul propus definește scheletul celei mai simple rețele neuronale având cele trei concepte care stau la baza arhitecturii acesteia: 
 
-$$\text{input} \longrightarrow \text{weight} \longrightarrow \text{prediction}$$. 
+$$\text{input} \longrightarrow \text{weight} \longrightarrow \text{prediction}.$$
 
 Mai exact, până în acest punct, codul mimează o regresie liniară simplificată. Vorbim în acest caz de Supervised Learning - rețeaua învață să mapeze input-urile la output-urile dorite.
 
