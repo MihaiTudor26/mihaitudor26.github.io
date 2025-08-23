@@ -48,9 +48,9 @@ mjx-container[display="true"]:hover {
 /* Fix pentru formulele matematice pe mobile */
 @media (max-width: 768px) {
     mjx-container[display="true"] {
-        padding: 1rem !important;
-        margin: 1rem 0 !important;
-        font-size: 0.9em !important;
+        padding: 1.2rem !important;
+        margin: 1.2rem 0 !important;
+        font-size: 1em !important;
         overflow-x: scroll !important;
         -webkit-overflow-scrolling: touch !important;
     }
@@ -64,8 +64,8 @@ mjx-container[display="true"]:hover {
 /* Pentru ecrane foarte mici */
 @media (max-width: 480px) {
     mjx-container[display="true"] {
-        padding: 0.8rem !important;
-        font-size: 0.85em !important;
+        padding: 1rem !important;
+        font-size: 0.95em !important;
     }
 }
 
