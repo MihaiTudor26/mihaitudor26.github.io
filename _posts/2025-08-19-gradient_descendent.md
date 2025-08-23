@@ -263,7 +263,7 @@ Un alt amănunt important pe care trebuie să-l avem în vedere este să control
 
 Astfel, algoritmul de optimizare care minimizează funcția de eroare prin ajustarea parametrilor în direcția opusă gradientului ne conduce la următoarea formulă generală:
 
-$$\text{parameter_{nou}} = \text{parameter_{vechi}} - (\text{learning_rate} \times \text{derivată})$$
+$$\text{ParameterNou} = \text{ParameterVechi} - (\text{LearningRate} \times \text{Derivată})$$
 
 ## Implementarea algoritmului de optimizare
 
